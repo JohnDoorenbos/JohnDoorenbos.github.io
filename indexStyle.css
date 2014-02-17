@@ -1,0 +1,16 @@
+#wrap {
+    float : right;
+    width : 50%;
+    background : #5a5;
+}
+
+#img {
+    position : fixed;
+    top : 0;
+    right : 0;
+    float : right;
+}
+
+#narrow {
+    width : 50px;
+}
