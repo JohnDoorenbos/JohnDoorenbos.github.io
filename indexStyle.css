@@ -1,16 +1,48 @@
-#wrap {
-    float : right;
-    width : 50%;
-    background : #5a5;
+#background {
+    width : 100%;
+    background-image : url('http://p1.pichost.me/i/5/1282860.jpg');
+    height : 100%;
 }
 
-#img {
+.body {
+    width : 50%;
+    float : left;
+    padding-left : 20px;
+    background-color : #aae;
+}
+
+#profilePic {
     position : fixed;
     top : 0;
     right : 0;
     float : right;
 }
 
-#narrow {
+.narrow {
     width : 50px;
+}
+
+#favorites {
+    width : 120px;
+    text-align : left;
+    background-color : #afa;
+    
+    float : left;
+    float : top;
+}
+
+.website {
+    color : #44e;
+}
+
+#details1 {
+    padding-left : 20px;
+    background-color : #e44;
+    float : left;
+    width : 30%;
+}
+
+#img1 {
+    width : 75%;
+    margin : 0;
 }
