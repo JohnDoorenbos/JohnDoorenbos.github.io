@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    	<meta name="author" content="John Doorenbos">
+        <meta description="Index Page">
+        <title>Welcome to John Doorenbos' Webpage!</title>
+	<link rel="stylesheet" href="indexStyle.css">
+</head>
+<body>
+<div>
+  <h1>And so we begin!</h1>
+  
+
+  <div id="favorites"> 
+    <div>
+      <p> Favorite Websites</p>
+    </div>
+    <div class="website">
+      <a href="https://www.xkcd.com">XKCD</a>
+    </div>  
+    <div class="website">
+      <a href="http://www.instructables.com">Instructables</a>
+      
+    </div>
+    <div class="website">
+      <a href="https://www.slowrobot.com">Slowrobot</a>
+    </div>
+    <div class="website">  
+      <a href="https://wwww.what-if.xkcd.com">XKCD-What if?</a>
+    </div>
+    <div class="website">
+      <a href="https://www.make.com">Make</a>
+    </div>
+  </div>
+
+  <div class="body">
+    <p>Hi! My name is John Doorebos, welcome to my webpage! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet tincidunt pharetra. Praesent ut mauris eget nulla pretium pretium a in enim. Phasellus suscipit hendrerit ultrices. Sed id rutrum nisi. Cras at pulvinar nisl, malesuada adipiscing arcu. Integer gravida gravida tincidunt. Proin scelerisque, sapien non pretium rhoncus, odio metus commodo magna, eget interdum mi nisl non diam. Nulla at nulla vehicula sem suscipit cursus. Pellentesque mattis porttitor dui et ornare. Integer tortor ligula, dictum vel tempus et, rutrum quis urna.</p>
+    <p> SECTION 2 Pellentesque sed diam elementum, pharetra felis id, fermentum magna. Etiam id nibh hendrerit, tincidunt justo id, fringilla mauris. Nulla erat enim, euismod ut vulputate sit amet, commodo nec orci. Sed ultrices nisl eget nulla rutrum fringilla. Proin at lorem eget risus consectetur ornare. Donec porttitor ante non felis cursus suscipit vitae ut purus. Nam sit amet purus tristique quam blandit mollis. Fusce scelerisque orci in mi accumsan commodo. Phasellus id massa augue. Pellentesque laoreet congue mauris, ac molestie diam rutrum ac. Sed porttitor tempor augue, sit amet scelerisque mauris commodo a. Donec auctor risus et urna molestie, nec rutrum nibh ultrices.</p>
+  </div>
+  
+
+  <div id="profilePic">
+    <img src="Meow.jpg" width=100 height=70>
+    
+  </div>
+  
+  <a href="about.html"> About Me </a>
+  <details>
+    <summary> See that arrow? Click it!</summary>
+    <div id="details1">
+      <img id ="img1"src="ThumbsUp.gif">
+      <p> Good work!   Vivamus porta diam vitae blandit pulvinar. Sed ultrices eget sem sed mattis. Morbi feugiat, sem lobortis sagittis bibendum, elit sapien auctor ante, sit amet fringilla ipsum velit sed mauris. </p>
+    <div>  
+  </details>
+
+
+
+
+</div>
+</body>
+</html>
+
