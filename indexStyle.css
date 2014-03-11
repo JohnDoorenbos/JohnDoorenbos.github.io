@@ -1,34 +1,32 @@
-#background {
-    width : 100%;
-    background-image : url('http://p1.pichost.me/i/5/1282860.jpg');
-    height : 100%;
-}
+
 
 .body {
-    width : 50%;
-    float : left;
-    padding-left : 20px;
+
     background-color : #aae;
+    padding : 20px;
+}
+
+.body2 {
+    background-color : magenta;
+    padding : 60px;
 }
 
 #profilePic {
-    position : fixed;
-    top : 0;
-    right : 0;
-    float : right;
+
+
+
 }
 
 .narrow {
-    width : 50px;
+
 }
 
 #favorites {
-    width : 120px;
-    text-align : left;
+
+
     background-color : #afa;
     
-    float : left;
-    float : top;
+
 }
 
 .website {
@@ -36,13 +34,13 @@
 }
 
 #details1 {
-    padding-left : 20px;
+
     background-color : #e44;
-    float : left;
-    width : 30%;
+
+
 }
 
 #img1 {
-    width : 75%;
-    margin : 0;
+
+
 }
