@@ -1,0 +1,27 @@
+function processObjWithRef(obj, result){
+    if(obj==null || typeof obj != 'object'){
+        //nothing really to do here - you're going to lose the reference to result if you try an assignment
+    }
+    if(obj instanceof Array) {
+        for(var i=0; i<obj.length; i++){
+            result.push();
+            processObjWithRef(obj[i], result[i]);
+        }
+    }    
+    if(obj instanceof Object){
+        for(var k in obj){
+            var count=0;
+            if(obj[k]==null || typeof obj[k] != 'object'){
+                result[k] = obj[k];
+            }else if(obj[k] instanceof Array) {
+                result[k] = [];
+                processObjWithRef(obj[k], result[k]);
+            }else if(obj[k] instanceof Object){
+                result[k] = {};
+                for( var attr in obj[k]){
+                    processObjWithRef(obj[k], result[k]);
+                }
+            }
+        }
+    }
+}

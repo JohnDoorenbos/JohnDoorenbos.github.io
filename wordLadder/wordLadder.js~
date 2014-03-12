@@ -1,0 +1,14 @@
+Stack = function(){
+    var myList = new Array();
+    
+    this.push = function(item){
+	myList.push(item)
+    }
+    
+    this.pop = function(){
+	console.log(myList.length)
+	var temp = myList[myList.length-1]
+	myList.pop()
+	return temp
+    }
+}

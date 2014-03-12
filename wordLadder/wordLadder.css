@@ -1,0 +1,27 @@
+#body {
+
+text-align : center;
+background-color : lavender;
+width : 500px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#intro-text {
+
+    text-align : center;
+    }
+    
+#enter{
+        border : double;    
+        width : 50%;
+        margin : auto;
+    }
+    
+#output{
+    width : .5%;
+    margin-left :auto;
+    margin-right : auto;
+    
+}

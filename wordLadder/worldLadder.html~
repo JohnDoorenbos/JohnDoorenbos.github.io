@@ -1,0 +1,29 @@
+<html>
+<head>
+        <meta name="author" content="John Doorenbos">
+        <meta description="Index Page">
+        <title>Word Ladder WebPage!</title>
+	<link rel="stylesheet" href="wordLadder.css">
+</head>
+<body>
+  <div>
+    <h1>Instructions:</h1>
+    <p>Enter a word into the first box, and enter a word of the same length into the second box. Press the "Enter" button and let the magic begin!</p>
+  </div>
+  <div>
+  <input type="text" id="text1" name="word1"/> <br />
+  <input type="text" id="text2" name="word2"/> <br />
+  </div>
+  <button onclick="myFunction()">Enter</button>
+  <div id="output">
+    
+  </div>
+
+
+  <script type="text/javascript" src="usefulFunctions.js"></script>
+  <script type="text/javascript" src="dictionary.js"></script>
+  <script type="text/javascript" src="wordLadder1.js"></script>
+
+
+</body>
+</html>
