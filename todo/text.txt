@@ -1,0 +1,5 @@
+CompSci:
+ mashup:
+  priorty: 1
+  dueDate: Wednesday 19,2014
+  description: Our Midterm Project for cs365.

@@ -1,0 +1,32 @@
+myFunction = function() {
+    var request = new XMLHttpRequest();
+    var URL = "http://localhost:8000/cgi-bin/todo.py"
+
+    request.onreadystatechange = function() {
+        console.log("in function: " + request.readyState)
+        if (request.readyState==4 && request.status==200)
+        {
+            console.log(1)
+	    var A = JSON.parse(request.responseText)
+            console.log(1)              
+	    var mylist = document.getElementById("Todo_list")
+            console.log(1)  
+	    for(i in A){
+		var li = document.createElement("li")
+		li.innerHTML = A[i]
+		mylist.appendChild(li)
+	    }
+	    /*var mylist = document.getElementById("rlist")              
+              for(i=0; i<A.length;i++) {
+              console.log(A[i])
+              var li = document.createElement("li")
+              li.innerHTML = A[i]
+              mylist.appendChild(li)*/
+        }
+    }   
+    
+    request.open("GET",URL,true);
+    request.send();
+}
+
+window.onload = myFunction
