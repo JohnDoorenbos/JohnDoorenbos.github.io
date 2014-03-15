@@ -1,5 +1,5 @@
-hello
-my name is elder price
-and I have come
-to share with you
-the most amazing book
+CompSci:
+ mashup:
+  priorty: 1
+  dueDate: Wednesday 19,2014
+  description: Our Midterm Project for cs365.

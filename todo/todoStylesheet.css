@@ -6,17 +6,17 @@
 
 
 .HP {  /*High Priority Items on the list*/
-    text-size : 20px;
+    text-size : 36px;
     font-weight : bold;
     
 }
 
 .MP {  /*Medium Priority Items on the list*/
-    text-size : 18px;
+    text-size : 32px;
 }
 
 .LP {  /*Low Priority Items on the list*/
-    text-size : 16px;
+    text-size : 28px;
     font-weight : lighter;
 }
 

@@ -6,13 +6,15 @@ myFunction = function() {
         console.log("in function: " + request.readyState)
         if (request.readyState==4 && request.status==200)
         {
-            console.log(1)
+            console.log(request.responseText)
+	    console.log(1)
+	    
 	    var A = JSON.parse(request.responseText)
             console.log(1)              
 	    var mylist = document.getElementById("Todo_list")
             console.log(1)  
 	    for(i in A){
-		var li = document.createElement("li")
+		var li = document.createElement("li") //This line is where I should make each checkbox
 		li.innerHTML = A[i]
 		mylist.appendChild(li)
 	    }

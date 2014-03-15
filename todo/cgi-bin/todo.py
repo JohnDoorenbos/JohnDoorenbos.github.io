@@ -1,13 +1,14 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
+
 import json
-#import yaml
+import yaml
 
 print("Content-type: application/json")
 print("Access-Control-Allow-Origin: *")
-print
+print("")
 
 file = open("text.txt","r")
-#dictionary = yaml.load(file)
+dictionary = yaml.load(file)
 myList = []
 
 for line in file:
@@ -15,4 +16,4 @@ for line in file:
     myList.append(newLine)
 #print("<input type='checkbox' name='vehicle' value='Bike'>" + line + <br>
    # print(line)
-print( json.dumps(myList))
+print( json.dumps(dictionary))
