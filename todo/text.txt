@@ -1,5 +1,16 @@
 CompSci:
- mashup:
-  priorty: 1
+ 1 mashup:
+  priorty: high
   dueDate: Wednesday 19,2014
   description: Our Midterm Project for cs365.
+ 2 Todo List:
+  priority: med
+  dueDate: Wednesday 20,2014
+  description: I'm getting really fucking tired of this project...
+
+Physics:
+ 3 Lab Report:
+  priority: low
+  dueDate: Friday 21,2014
+  description: This is a lab report. How shocking
+
