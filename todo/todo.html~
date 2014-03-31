@@ -1,0 +1,21 @@
+
+<html>
+
+<body>
+
+
+
+<input type="button" onclick="myFunction()">click</input>
+<input type="checkbox" name="text" value="firstTry">hello</input>
+
+<div id="Todo list">
+
+</div>
+
+
+<script type="text/javascript" src="todo.js"></script>
+</body>
+
+
+
+</html>

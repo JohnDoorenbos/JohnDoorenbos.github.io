@@ -1,0 +1,11 @@
+HP {
+    text-size : 20px;
+}
+
+MP {
+    text-size : 18px;
+}
+
+LP {
+    text-size : 16px;
+}

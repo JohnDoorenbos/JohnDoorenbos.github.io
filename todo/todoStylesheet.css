@@ -1,0 +1,55 @@
+.project {   /*The header at the beginning of each section ot the 
+	       * todo list*/
+    text-decoration : underline;
+    font-weight : bold;
+}
+
+
+.HP {  /*High Priority Items on the list*/
+    text-size : 36px;
+    font-weight : bold;
+    
+}
+
+.MP {  /*Medium Priority Items on the list*/
+    text-size : 32px;
+}
+
+.LP {  /*Low Priority Items on the list*/
+    text-size : 28px;
+    font-weight : lighter;
+}
+
+
+.completed { /*First stage of completion, only while a box is checked
+	      *as soon as submit is hit (or whatever else triggers the
+	      *actual completion the finished task will move to the 
+	      *completed box*/
+    text-decoration : line-through;
+}
+
+
+/*
+**** Styles for the different div's****
+*/
+
+.container{
+   
+}
+
+
+#Todo_list { /*Div containing all of the todo items*/
+    padding : 20px;
+}
+
+#Completed_list{
+    padding : 20px;
+}
+
+
+/*
+****Styling for items like body
+*/
+
+body {
+    background-color : #EEE;
