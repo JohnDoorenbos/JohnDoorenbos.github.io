@@ -301,60 +301,6 @@ deleteTable = function(){   //deletes the entire current table
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*testing = function(){
-    div = document.getElementById("display")
-    button = document.createElement("button")
-    button.onclick = function(){console.log(}
-}
-*/
-function tableCreate(){
-    var body = document.body,
-        tbl  = document.createElement('table');
-    tbl.style.width='100%';
-    tbl.style.border = "1px solid black";
-
-    for(var i = 0; i < 3; i++){
-        var tr = tbl.insertRow();
-        for(var j = 0; j < 2; j++){
-            if(i==2 && j==1){
-                    break
-            } else {
-                var td = tr.insertCell();
-                td.appendChild(document.createTextNode('hello!'))
-                if(i==1&&j==1){
-                    td.setAttribute('rowSpan','2');
-                }
-            }
-        }
-   }
-    body.appendChild(tbl);
-}
-
-
-/* Things to learn from the above function
-   td = tr.insertCell()
-   tr = tbl.insertRow()
-   break only break the current loop.
-   td.appendChild(document.createTextNode("BLAH")
-*/
-// waits two seconds before doing the onload function. hopefully enough time for the library requests to be made
-var timeout = window.setTimeout(function() {
-    window.onload = handleClientLoad()    
-}, 2000);
-
+$(document).ready(function(){
+    handleClientLoad()
+});
